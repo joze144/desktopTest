@@ -13,6 +13,8 @@
 		AE3413201D05D3AC003165E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE34131E1D05D3AC003165E6 /* Main.storyboard */; };
 		AE34132B1D05D3AC003165E6 /* desktopTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE34132A1D05D3AC003165E6 /* desktopTestTests.swift */; };
 		AE3413361D05D3AC003165E6 /* desktopTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3413351D05D3AC003165E6 /* desktopTestUITests.swift */; };
+		AE3413471D05DF09003165E6 /* desktop.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3413451D05DF09003165E6 /* desktop.swift */; };
+		AE3413481D05DF09003165E6 /* desktop.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE3413461D05DF09003165E6 /* desktop.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		AE3413311D05D3AC003165E6 /* desktopTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = desktopTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3413351D05D3AC003165E6 /* desktopTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desktopTestUITests.swift; sourceTree = "<group>"; };
 		AE3413371D05D3AC003165E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE3413451D05DF09003165E6 /* desktop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = desktop.swift; sourceTree = "<group>"; };
+		AE3413461D05DF09003165E6 /* desktop.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = desktop.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				AE3413181D05D3AC003165E6 /* AppDelegate.swift */,
+				AE3413451D05DF09003165E6 /* desktop.swift */,
+				AE3413461D05DF09003165E6 /* desktop.xib */,
 				AE34131A1D05D3AC003165E6 /* ViewController.swift */,
 				AE34131C1D05D3AC003165E6 /* Assets.xcassets */,
 				AE34131E1D05D3AC003165E6 /* Main.storyboard */,
@@ -227,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE34131D1D05D3AC003165E6 /* Assets.xcassets in Resources */,
+				AE3413481D05DF09003165E6 /* desktop.xib in Resources */,
 				AE3413201D05D3AC003165E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE34131B1D05D3AC003165E6 /* ViewController.swift in Sources */,
+				AE3413471D05DF09003165E6 /* desktop.swift in Sources */,
 				AE3413191D05D3AC003165E6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
